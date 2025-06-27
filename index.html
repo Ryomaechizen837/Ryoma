@@ -1,31 +1,269 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ryoma Echizen - GTPS Web</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryoma Echizen GTPS</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #4FC3F7;
+    }
+
+    header p {
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid #00ffff40;
+      border-radius: 15px;
+      padding: 30px 20px;
+      width: 300px;
+      box-shadow: 0 0 20px rgba(0,255,255,0.1);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 30px rgba(0,255,255,0.3);
+    }
+
+    .card h2 {
+      color: #00ffff;
+      margin-bottom: 15px;
+    }
+
+    .features {
+      text-align: left;
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+
+    .features li {
+      margin-bottom: 8px;
+    }
+
+    .btn {
+      background: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 10px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #1ebd5a;
+    }
+
+    footer {
+      text-align: center;
+      margin: 50px 0;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>Ryoma Echizen GTPS</h1>
     <p>Server stabil & banyak item gratis</p>
   </header>
 
-  <section class="pricing">
+  <div class="container">
     <div class="card">
       <h2>Role</h2>
-      <p>✔️ Akses item eksklusif<br>✔️ Nama berwarna</p>
-      <a href="https://wa.me/6288976695274?text=.payment" class="btn">Beli Sekarang</a>
+      <ul class="features">
+        <li>✔ Akses item eksklusif</li>
+        <li>✔ Nama berwarna</li>
+      </ul>
+      <a href="https://wa.me/6288976695274?text=.payment" class="btn" target="_blank">.payment</a>
     </div>
 
     <div class="card">
       <h2>Asset</h2>
-      <p>✔️ Semua fitur VIP<br>✔️ Akses ke dunia LEGEND</p>
-      <a href="https://wa.me/6288976695274?text=.payment" class="btn">Beli Sekarang</a>
+      <ul class="features">
+        <li>✔ Semua fitur VIP</li>
+        <li>✔ Akses ke dunia LEGEND</li>
+      </ul>
+      <a href="https://wa.me/6288976695274?text=.payment" class="btn" target="_blank">.payment</a>
     </div>
 
     <div class="card">
       <h2>Citem</h2>
-      <p>✔️ Akses dokter<br>✔️ Item medical premium</p>
-      <a href="https://wa.me/6288976695274?
+      <ul class="features">
+        <li>✔ Akses dokter</li>
+        <li>✔ Item medical premium</li>
+      </ul>
+      <a href="https://wa.me/6288976695274?text=.payment" class="btn" target="_blank">.payment</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Ryoma GTPS - Pricing by kamu 😎
+  </footer>
+
+</body>
+  </html><!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryoma Echizen GTPS</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #4FC3F7;
+    }
+
+    header p {
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid #00ffff40;
+      border-radius: 15px;
+      padding: 30px 20px;
+      width: 300px;
+      box-shadow: 0 0 20px rgba(0,255,255,0.1);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 30px rgba(0,255,255,0.3);
+    }
+
+    .card h2 {
+      color: #00ffff;
+      margin-bottom: 15px;
+    }
+
+    .features {
+      text-align: left;
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+
+    .features li {
+      margin-bottom: 8px;
+    }
+
+    .btn {
+      background: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 10px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #1ebd5a;
+    }
+
+    footer {
+      text-align: center;
+      margin: 50px 0;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ryoma Echizen GTPS</h1>
+    <p>Server stabil & banyak item gratis</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Role</h2>
+      <ul class="features">
+        <li>✔ Akses item eksklusif</li>
+        <li>✔ Nama berwarna</li>
+      </ul>
+      <a href="https://wa.me/6288976695274?text=.payment" class="btn" target="_blank">.payment</a>
+    </div>
+
+    <div class="card">
+      <h2>Asset</h2>
+      <ul class="features">
+        <li>✔ Semua fitur VIP</li>
+        <li>✔ Akses ke dunia LEGEND</li>
+      </ul>
+      <a href="https://wa.me/6288976695274?text=.payment" class="btn" target="_blank">.payment</a>
+    </div>
+
+    <div class="card">
+      <h2>Citem</h2>
+      <ul class="features">
+        <li>✔ Akses dokter</li>
+        <li>✔ Item medical premium</li>
+      </ul>
+      <a href="https://wa.me/6288976695274?text=.payment" class="btn" target="_blank">.payment</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Ryoma GTPS - Pricing by Ryoma Echizen😎
+  </footer>
+
+</body>
+    </html>
